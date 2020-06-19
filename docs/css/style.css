@@ -1,0 +1,79 @@
+/* Base styles */
+* {box-sizing: border-box;}
+
+h1 {
+	 text-align: center;
+}
+
+p {
+	 margin: 10px;
+}
+
+div.card {
+	 background:grey;
+	 border: 1px solid black;
+}
+div.cardheader {
+	 position:relative;
+	 height:2em;
+}
+span.chicken {
+	 background:pink;
+	 color: black;
+	 border: 1px solid black;
+	 padding:2px 30px 2px 30px;
+	 position: absolute;
+	 right: 0px;
+	 height:2em;
+}
+span.beef {
+	 background:red;
+	 color: white;
+	 border: 1px solid black;
+	 padding:2px 30px 2px 30px;
+	 position: absolute;
+	 right: 0px;
+	 height:2em;
+}
+span.sushi {
+	 background:yellow;
+	 color: black;
+	 border: 1px solid black;
+	 padding:2px 30px 2px 30px;
+	 position: absolute;
+	 right: 0px;
+	 height:2em;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+	 section {
+		  width: 33%;
+		  float: left;
+		  padding: 5px;
+		  position: relative;
+		  /*background: gray;
+		  border: 1px solid black;
+		  margin: 5px;*/
+	 }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+	 section {
+		  width: 50%;
+		  float: left;
+		  padding: 5px;
+	 }
+	 section#last {
+		  width: 100%;
+		  float: left;
+		  padding: 5px;
+	 }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+	 section {padding: 5px;}
+}
+
