@@ -1,8 +1,12 @@
 /* Base styles */
-* {box-sizing: border-box;}
+* {
+	 box-sizing: border-box;
+	 font-family: Arial, Helvetica, sans-serif;
+}
 
 h1 {
 	 text-align: center;
+	 font-size:175%;
 }
 
 p {
@@ -17,32 +21,25 @@ div.cardheader {
 	 position:relative;
 	 height:2em;
 }
-span.chicken {
+span.title {
+	 border: 1px solid black;
+	 padding:2px 30px 2px 30px;
+	 position: absolute;
+	 right: 0px;
+	 height:2em;
+	 font-size:125%;
+}
+span.pink {
 	 background:pink;
 	 color: black;
-	 border: 1px solid black;
-	 padding:2px 30px 2px 30px;
-	 position: absolute;
-	 right: 0px;
-	 height:2em;
 }
-span.beef {
+span.red {
 	 background:red;
 	 color: white;
-	 border: 1px solid black;
-	 padding:2px 30px 2px 30px;
-	 position: absolute;
-	 right: 0px;
-	 height:2em;
 }
-span.sushi {
+span.yellow {
 	 background:yellow;
 	 color: black;
-	 border: 1px solid black;
-	 padding:2px 30px 2px 30px;
-	 position: absolute;
-	 right: 0px;
-	 height:2em;
 }
 
 /* Desktop */
@@ -52,9 +49,6 @@ span.sushi {
 		  float: left;
 		  padding: 5px;
 		  position: relative;
-		  /*background: gray;
-		  border: 1px solid black;
-		  margin: 5px;*/
 	 }
 }
 
